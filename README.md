@@ -13,9 +13,11 @@ $HereStringVARScope: usually you would want this to be Global or at least Script
 
 **Process**:  
 1) Retrieve the CSV Data as a string  
-2) Carefully build a Here-String Command in the general format of" $HereStringNameToCreate = @"$CSVDATA"@  
+2) Carefully build a Here-String Command in the general format of  
+$HereStringNameToCreate = @"$CSVDATA"@  
 3) Invokes that command  
-4) Carefully builds the command that converts the Here-String to CSV addressable data in the general format of: $HereStringNameToCreate = $HereStringNameToCreate | ConvertFrom-Csv  
+4) Carefully builds the command that converts the Here-String to CSV addressable data in the general format of:  
+$HereStringNameToCreate = $HereStringNameToCreate | ConvertFrom-Csv  
 5) Invokes that command
 
 Now the data is addressable like: $Runtable.Choice (given that Choice is a column name in the CSV)
