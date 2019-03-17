@@ -22,7 +22,7 @@ $HereStringNameToCreate = $HereStringNameToCreate | ConvertFrom-Csv
 
 Now the data is addressable like: $Runtable.Choice (given that Choice is a column name in the CSV)
 
-# How to use Clear-HostLine:  
+# How to use HereStringFromCSV:  
 Call function with appropriate data
 
 **EXAMPLE**:
