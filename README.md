@@ -1,7 +1,7 @@
 # HereStringFromCSV
 Create a Here-String from a CSV.  This enables the storage of Variables **INSIDE** of the CSV and have them expanded... upon Here-String creation.
 
-#Uses:
+# Uses:
 Storing filenames, directory names, program paths, etc all with variables that will build themselves into the $HereStringNameToCreate
 I use this to store valid menu choices and their corresponding paths (whether that be a function or an executable) in my RunMahStuff menu system.
 
