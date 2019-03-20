@@ -4,7 +4,7 @@
         [parameter (Mandatory=$true)]$SourceCSVFile,
         [parameter (Mandatory=$true)]$HereStringVARScope
     )
-    
+        
     $CSVData = Get-Content $SourceCSVFile | Out-String #Get the Data from the CSV file
     $HereStringCommand = '$' + "$HereStringNameToCreate" + ' = ' + '@"' + "`n" + $CSVData + '"@' #Build the Here-String command
     Invoke-Expression $HereStringCommand #Invoke the Here-String command 
