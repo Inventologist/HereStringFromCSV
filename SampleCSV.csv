@@ -1,4 +1,5 @@
 Choice,Type,Function,RunProg,RunSettings
+windir,program,,Explorer $YourWindowsDirectory,
 0,Menu,Menu_Main,,
 1,Function,Open-Websites_Default,,
 A,Function,Open-Websites_Articles,,
