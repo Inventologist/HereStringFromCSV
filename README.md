@@ -1,7 +1,9 @@
 # HereStringFromCSV
 Create a Here-String from a CSV.  This enables the storage of Variables **INSIDE** of the CSV and have them expanded... upon Here-String creation.  
 
-The values can be normally addressed and do not require {$ExecutionContext.InvokeCommand.ExpandString($VariableName)} to force an extraction.  During the HereString creation, the values are expanded, so they are stored EXPANDED in the HereString
+The values can be normally addressed and do not require {$ExecutionContext.InvokeCommand.ExpandString($VariableName)} to force an extraction.  During the HereString creation, the values are expanded, so they are stored EXPANDED in the HereString.
+
+Possible future use with traditionally structured INI files also... stay tuned.
 
 # Uses:
 Use this to have a CSV serve as a settings file, or an INI File.  You can store filenames, directory names, program paths, etc all with variables that will build themselves into the $HereStringNameToCreate
